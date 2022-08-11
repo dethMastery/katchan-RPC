@@ -12,7 +12,16 @@
   "author": "deth",
   "license": "MIT",
   "pkg": {
-    "targets": [ "node14-linux-arm64", "node14-linux-x64", "node14-macos-arm64", "node14-win-arm64", "node14-win-x64" ],
+    "targets": [
+      "node14-linux-arm64",
+      "node14-linux-x64",
+      "node14-macos-arm64",
+      "node14-win-arm64",
+      "node14-win-x64"
+    ],
     "outputPath": "dist"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
   }
 }
