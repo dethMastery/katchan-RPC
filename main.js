@@ -37,7 +37,7 @@ cli.on('ready', async () => {
 
   setInterval(() => {
     setActivity()
-  }, 15 * 1000)
+  }, 60 * 1000)
 })
 
 cli.login({ clientId: cliID}).catch(err => console.error(err))
