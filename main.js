@@ -9,8 +9,8 @@ async function setActivity() {
   if (!cli) return;
 
   cli.setActivity({
-    details: `In process of making new album`,
-    state: `Pastel Delightful`,
+    state: `@pompommuu_`,
+    details: `I'm In loving my girl`,
     startTimestamp: new Date().now,
     endTimestamp: new Date().now + 200000000000, 
     largeImageKey: `katchan`,
