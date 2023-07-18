@@ -20,12 +20,12 @@ async function setActivity() {
 
     buttons: [
       {
-        label: `HomePage`,
-        url: `https://suphakit.net`
+        label: `katsuragi.wav Homepage`,
+        url: `https://katsuragi.cyou`
       },
       {
-        label: `Donation`,
-        url: `https://suphakit.net/Donation`
+        label: `Latest Released`,
+        url: `https://t.can-i.cyou/katz-wav/love-inlove-heartbroken/`
       }
     ],
   
