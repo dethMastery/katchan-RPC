@@ -1,7 +1,7 @@
 let rpc = require('discord-rpc')
 let cli = new rpc.Client({transport: 'ipc'})
 
-let cliID = '942719157055655956'
+let cliID = '1131656141227700245'
 
 rpc.register(cliID)
 
@@ -10,13 +10,13 @@ async function setActivity() {
 
   cli.setActivity({
     state: `@pompommuu_`,
-    details: `I'm In loving my girl`,
-    startTimestamp: new Date().now,
-    endTimestamp: new Date().now + 200000000000, 
-    largeImageKey: `katchan`,
-    largeImageText: `hiya this is katchan`,
+    details: `I'm in loving my girl`,
+    startTimestamp: new Date('Jul 7, 2023'),
+    endTimestamp: new Date('Jul 7, 2024'), 
+    largeImageKey: `katchan-crop`,
+    largeImageText: `..`,
     smallImageKey: `none`,
-    smallImageText: `nothing here`,
+    smallImageText: `..`,
 
     buttons: [
       {
@@ -35,6 +35,7 @@ async function setActivity() {
 
 cli.on('ready', async () => {
   setActivity()
+  console.log("katzRPC Online");
 
   setInterval(() => {
     setActivity()
